@@ -1,0 +1,59 @@
+# .gitignore — exclusiones recomendadas para proyecto Python / pyinstaller
+# Excluir caches, artefactos de build, entornos virtuales e IDEs
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller (si usas pyinstaller / cx_Freeze)
+*.spec
+*.manifest
+*.exe
+
+# Archivos generados por la construcción del proyecto
+build/MostrarTexto/
+build/**
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Cachés y reportes de testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+
+# Archivos locales / variables de entorno
+.env
+env.local
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales del editor
+*~
+*.swp
+
+# Otros (carpeta que aparece en tu repo)
+localpycs/

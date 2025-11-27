@@ -1,0 +1,48 @@
+# INSTRUCCIONES DE DISTRIBUCIÓN
+
+## Tu aplicación está lista para distribuir
+
+### Archivos disponibles:
+
+1. **BalanceadorEcuaciones_v1.0/** 
+   - Carpeta con la aplicación empaquetada
+   - Contiene: BalanceadorEcuaciones.exe + LEEME.txt
+
+2. **BalanceadorEcuaciones_v1.0.zip**
+   - Archivo comprimido listo para compartir
+   - Ideal para enviar por correo o descargar
+
+### Cómo distribuir:
+
+#### Opción A: Enviar por correo
+1. Comprime la carpeta "BalanceadorEcuaciones_v1.0" como ZIP
+2. Envía "BalanceadorEcuaciones_v1.0.zip" 
+3. El usuario extrae y ejecuta BalanceadorEcuaciones.exe
+
+#### Opción B: Copiar en USB
+1. Copia la carpeta "BalanceadorEcuaciones_v1.0" al USB
+2. El usuario simplemente ejecuta el .exe desde el USB
+3. NO requiere instalación
+
+#### Opción C: Crear página de descarga
+1. Aloja "BalanceadorEcuaciones_v1.0.zip" en un servidor
+2. Comparte el link de descarga
+3. Los usuarios descargan, extraen y ejecutan
+
+### Requisitos del usuario final:
+✓ Windows 7 o superior
+✓ No requiere Python
+✓ No requiere instalación de software adicional
+✓ Solo necesita hacer doble clic en BalanceadorEcuaciones.exe
+
+### Tamaño:
+- Ejecutable: ~10 MB
+- ZIP comprimido: ~3-4 MB
+
+### Verificación:
+Para verificar que funciona correctamente:
+1. Abre BalanceadorEcuaciones.exe
+2. Prueba con: H2+O2->H2O
+3. Debe mostrar: H2 + O2 → H2O2
+
+¡Tu aplicación está lista para distribuir sin necesidad de Python!
